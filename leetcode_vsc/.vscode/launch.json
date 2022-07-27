@@ -5,6 +5,13 @@
             "name": "Launch App",
             "request": "launch",
             "mainClass": "App",
+            "projectName": "leetcode_vsc_a8cc0f23"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
             "projectName": ".leetcode_19ac9cee"
         },
         {

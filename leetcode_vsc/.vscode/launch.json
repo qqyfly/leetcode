@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": ".leetcode_19ac9cee"
+        },
+        {
+            "type": "java",
+            "name": "Launch FoodRatings",
+            "request": "launch",
+            "mainClass": "FoodRatings",
+            "projectName": ".leetcode_19ac9cee"
+        },
+        {
+            "type": "java",
+            "name": "Launch ContestEn",
+            "request": "launch",
+            "mainClass": "ContestEn",
+            "projectName": ".leetcode_19ac9cee"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

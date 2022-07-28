@@ -59,6 +59,7 @@ class Solution {
         
         UnionFind uf = new UnionFind(n);
         
+        /* 这个快
         for(int i = 0;i < edges.length;i++){
             int oldCount = uf.count;
             //此处！
@@ -67,7 +68,18 @@ class Solution {
             if (oldCount == newCount){
                 return edges[i];
             }
+        }*/
+
+        for(int i = 0;i < edges.length;i++){
+            int oldCount = uf.count;
+            //此处！
+            if (uf.find(edges[i][0]-1) != uf.find(edges[i][1]-1)){
+                uf.union(edges[i][0]-1, edges[i][1]-1);
+            }else{
+                return edges[i];
+            }                                                    
         }
+
         return new int[]{};
     }
 }
